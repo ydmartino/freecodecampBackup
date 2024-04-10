@@ -1,20 +1,37 @@
+<!-- Define o tipo de documento como HTML5 -->
 <!DOCTYPE html>
+<!-- Abre a tag html, define o idioma como inglês -->
 <html lang="en">
+  <!-- Início do cabeçalho da página -->
   <head>
+    <!-- Define o conjunto de caracteres como UTF-8 -->
     <meta charset="utf-8" />
+    <!-- Define a largura da página como o tamanho do dispositivo e a escala inicial como 1.0 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Define o título da página -->
     <title>Cafe Menu</title>
+    <!-- Link para o arquivo de estilo externo "styles.css" -->
     <link href="styles.css" rel="stylesheet"/>
   </head>
+  <!-- Corpo da página -->
   <body>
+    <!-- Div que contém todo o conteúdo do menu -->
     <div class="menu">
+      <!-- Elemento principal que contém o conteúdo principal -->
       <main>
+        <!-- Título principal -->
         <h1>CAMPER CAFE</h1>
+        <!-- Parágrafo com a data de estabelecimento -->
         <p class="established">Est. 2020</p>
+        <!-- Linha horizontal -->
         <hr>
+        <!-- Seção para os itens de café -->
         <section>
+          <!-- Título para a seção de café -->
           <h2>Coffee</h2>
+          <!-- Imagem representando café -->
           <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <!-- Artigo representando um item de café com sabor e preço -->
           <article class="item">
             <p class="flavor">French Vanilla</p><p class="price">3.00</p>
           </article>
@@ -31,9 +48,13 @@
             <p class="flavor">Mocha</p><p class="price">4.50</p>
           </article>
         </section>
+        <!-- Seção para os itens de sobremesa -->
         <section>
+          <!-- Título para a seção de sobremesa -->
           <h2>Desserts</h2>
+          <!-- Imagem representando sobremesa -->
           <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <!-- Artigo representando um item de sobremesa com nome e preço -->
           <article class="item">
             <p class="dessert">Donut</p><p class="price">1.50</p>
           </article>
@@ -48,11 +69,15 @@
           </article>
         </section>
       </main>
+      <!-- Linha horizontal no final do conteúdo -->
       <hr class="bottom-line">
+      <!-- Rodapé da página -->
       <footer>
+        <!-- Parágrafo com link para o site -->
         <p>
           <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
         </p>
+        <!-- Parágrafo com o endereço -->
         <p class="address">123 Free Code Camp Drive</p>
       </footer>
     </div>
