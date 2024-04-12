@@ -1,0 +1,45 @@
+h1 {
+    text-align: center; /* Centraliza o texto do cabeçalho */
+}
+
+.container {
+    background-color: rgb(255, 255, 255); /* Define a cor de fundo do container como branco */
+    padding: 10px 0; /* Adiciona um espaçamento interno de 10px na parte superior e inferior do container */
+}
+
+.marker {
+    width: 200px; /* Define a largura dos marcadores como 200px */
+    height: 25px; /* Define a altura dos marcadores como 25px */
+    margin: 10px auto; /* Adiciona uma margem de 10px nas laterais e centraliza os marcadores horizontalmente */
+}
+
+.cap {
+    width: 60px; /* Define a largura da tampa como 60px */
+    height: 25px; /* Define a altura da tampa como 25px */
+}
+
+.sleeve {
+    width: 110px; /* Define a largura da parte colorida como 110px */
+    height: 25px; /* Define a altura da parte colorida como 25px */
+    background-color: rgba(255, 255, 255, 0.5); /* Define a cor de fundo da parte colorida com transparência */
+    border-left: 10px double rgba(0, 0, 0, 0.75); /* Adiciona uma borda à esquerda com estilo duplo e cor preta com transparência */
+}
+
+.cap, .sleeve {
+    display: inline-block; /* Define os elementos como blocos em linha */
+}
+
+.red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27)); /* Define um gradiente de cores para o marcador vermelho */
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8); /* Adiciona uma sombra ao marcador vermelho */
+}
+
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31); /* Define um gradiente de cores para o marcador verde */
+    box-shadow: 0 0 20px 0 #3B7E20CC; /* Adiciona uma sombra ao marcador verde */
+}
+
+.blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)); /* Define um gradiente de cores para o marcador azul */
+    box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8); /* Adiciona uma sombra ao marcador azul */
+}
